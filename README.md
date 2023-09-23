@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-decorate-after/tags). For example,
+
+```javascript
 import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@esm/index.mjs';
 ```
 
 #### decorateAfter( fcn, arity, after\[, thisArg] )
@@ -200,7 +205,7 @@ Argument behavior is the same as for `decorateAfter` above.
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import format from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs';
-import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-esm/index.mjs';
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@esm/index.mjs';
 
 function count() {
     this.count += 1;
