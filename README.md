@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-decorate-after/tags). For example,
+
+```javascript
 import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
 ```
 
 #### decorateAfter( fcn, arity, after\[, thisArg] )
@@ -195,7 +200,7 @@ Argument behavior is the same as for `decorateAfter` above.
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import format from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-format@deno/mod.js';
-import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.1.0-deno/mod.js';
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
 
 function count() {
     this.count += 1;
