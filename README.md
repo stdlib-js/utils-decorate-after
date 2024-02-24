@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.2.1-deno/mod.js';
 ```
 
 #### decorateAfter( fcn, arity, after\[, thisArg] )
@@ -195,7 +195,7 @@ Argument behavior is the same as for `decorateAfter` above.
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import format from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-format@deno/mod.js';
-import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
+import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@v0.2.1-deno/mod.js';
 
 function count() {
     this.count += 1;
